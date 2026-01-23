@@ -34,6 +34,13 @@ const Navbar = () => {
             Our Product
           </Link>
           <Link
+            to="/certificate"
+            className="hover:text-yellow-400 md:py-0 py-2 px-4"
+            onClick={() => setIsMobile(false)}
+          >
+            Certificate
+          </Link>
+          <Link
             to="/about-us"
             className="hover:text-yellow-400 md:py-0 py-2 px-4"
             onClick={() => setIsMobile(false)}
