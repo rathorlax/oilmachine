@@ -6,7 +6,7 @@ const mostSaleProduct = regulerProduct.filter((item) => item.mostSaleProduct);
 
 const ImageGrid = () => {
   return (
-    <div className="container mx-auto px-4 py-2 sm:py-8">
+    <section className="container mx-auto px-4 py-2 sm:py-8" id="products">
       <h1 className="text-3xl font-bold text-center py-2 lg:text-5xl lg:py-4">
         Our Products
       </h1>
@@ -33,7 +33,7 @@ const ImageGrid = () => {
           More Product &rarr;
         </Link>
       </div>
-    </div>
+    </section>
   );
 };
 

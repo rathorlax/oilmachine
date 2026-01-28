@@ -24,14 +24,7 @@ const Product = () => {
             onMoreInfo={`/product/${product.name}`}
           />
         ))}
-        <ProductCard
-          image={
-            "https://res.cloudinary.com/du1stzhac/image/upload/v1768674284/some_wgzlod.png"
-          }
-          title={"Some type of seeds"}
-          description={"Mustard seeds (Rai / Sarson)Cumin seeds (Jeera)Coriander seeds (Dhaniya)Fennel seeds (Saunf)Fenugreek seeds (Methi)Sesame seeds (Til)Nigella seeds (Kalonji)"}
-          onMoreInfo={"cattle_feed"}
-        />
+       
       </div>
     </>
   );

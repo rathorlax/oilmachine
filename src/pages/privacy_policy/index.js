@@ -9,7 +9,7 @@ const PrivacyPolicy = () => {
         </h1>
 
         <p className="text-lg text-gray-700 mb-6">
-          At Anil Enginer Pvt. Ltd., we are committed to protecting your
+          At Anil Enginer, we are committed to protecting your
           privacy. This privacy policy explains how we collect, use, and
           safeguard your personal information when you visit our website.
         </p>

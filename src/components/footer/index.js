@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 space-y-12">
         <div className="text-center">
           <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-500">
-            The Quality inspires trust -<b style={{ fontFamily: 'Times New Roman', fontStyle: 'italic' }}> ANIL ENGINEER </b>. ISO 9001:2015 CERTIFIED CO.
+        <b style={{ fontFamily: 'Times New Roman'}}>    The Quality inspires trust -</b><b style={{ fontFamily: 'Times New Roman',color: "red"}}> ANIL ENGINEER </b><br /><b style={{ fontFamily: 'Times New Roman',color: "white",backgroundColor: "black",fontSize:"20px",marginLeft: "650px"}}> The ISO 9001:2015 Certified Co.</b>
           </h2>
           <p className="text-xl mt-4 text-gray-300">
             गुणवत्ता के प्रति हमारा समर्पण यह सुनिश्चित करता है कि आपको बेहतरीन उत्पाद मिलें — शुद्ध तेलों से लेकर पौष्टिक शुद्ध खाद्य मसाले|
@@ -22,7 +22,9 @@ const Footer = () => {
            </p>  <p className="text-lg">
             नोट:
 कंपनी के उत्पादों के विपणन एवं वितरण को सुदृढ़ करने हेतु विभिन्न प्रतिनिधित्व क्षेत्रों में डीलर एवं डिस्ट्रीब्यूटर की नियुक्ति की जानी प्रस्तावित है। संबंधित क्षेत्रों में योग्य एवं सक्षम व्यक्तियों/फर्मों का चयन कर उन्हें अधिकृत किया जाएगा।
-            </p>
+       <p style={{ textAlign: "right" }}> 👉 अनिल जैन</p>   
+         <p style={{ textAlign: "right" }}>9425 106 083</p> </p>
+        
           </div>
           <div className="hidden lg:block">
           
@@ -35,7 +37,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="/product/Groundnut%20Oil"
+                  href="#products"
                   className="hover:text-yellow-300"
                 >
                  Oil Maker Machine
@@ -43,7 +45,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/product/Mustard%20Oil"
+                 href="#products"
                   className="hover:text-yellow-300"
                 >
                  Grinders

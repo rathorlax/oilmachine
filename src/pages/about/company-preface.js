@@ -44,8 +44,8 @@ const CompanyPreface = () => {
         </p>
 
         <h2 className="text-xl font-semibold text-center italic mt-8">
-          “The Quality inspires trust -<b style={{ fontFamily: 'Times New Roman', fontStyle: 'italic' }}> ANIL ENGINEER </b> . The ISO 9001:2015 CERTIFIED CO.”
-        </h2>
+       <b style={{ fontFamily: 'Times New Roman',fontSize:"22px"}}>    The Quality inspires trust -</b><b style={{ fontFamily: 'Times New Roman',color: "red",fontSize:"30px"}}> ANIL ENGINEER </b><br /><b style={{ fontFamily: 'Times New Roman',color: "white",fontSize:"20px",marginLeft: "400px", color:"black"}}> The ISO 9001:2015 Certified Co.</b>
+            </h2>
       </div>
     </div>
   );

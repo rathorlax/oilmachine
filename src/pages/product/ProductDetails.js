@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import regulerProduct from "./ProductItem/RegularItem.json";
-import cattleFeed from "./ProductItem/CattleFeed.json";
-import ImageSwipe from "./ImageSwipe";
 
-const allItem = regulerProduct.concat(cattleFeed);
+const allItem = regulerProduct
 
 const ProductDetails = () => {
   const [currentImage, setCurrentImage] = useState(0);
@@ -20,41 +18,18 @@ const ProductDetails = () => {
   const product = allItem.find((item) => item.name === name);
 
 
-  const optionalPacking = () => {
-    if (product.optionalPacking) {
-      return (
-        <h4 className="text-red-500">
-          *Other Product are available on demand!
-        </h4>
-      );
-    }
-    return null;
-  };
 
   return (
     <>
       <div className="max-w-4xl mx-auto bg-white p-8 shadow-md">
         <div className="flex flex-col md:flex-row mb-8">
-          <ImageSwipe
-            images={product.package[currentImage].images}
-            name={`${product.name} ${product.package[currentImage].quantity}`}
-          />
-          <div className=" flex flex-col justify-evenly items-center md:pl-8">
+         
+          <div className=" flex flex-col justify-evenly items-center">
             <h1 className="text-4xl font-semibold uppercase text-gray-800">
               {product.name}
             </h1>
-            <div className="mt-4 grid grid-cols-4 gap-4 w-full">
-              {product.package.map((pkg, index) => (
-                <button
-                  onClick={() => setCurrentImage(index)}
-                  key={index}
-                  className="bg-gray-200 h-[48px] rounded px-1 text-gray-700"
-                >
-                  {pkg.quantity}
-                </button>
-              ))}
-            </div>
-            {optionalPacking()}
+           
+           
           </div>
         </div>
 
